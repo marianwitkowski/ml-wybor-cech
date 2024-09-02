@@ -27,9 +27,7 @@ Przekleństwo wymiarowości (ang. *curse of dimensionality*) odnosi się do prob
 
    Wzór na transformację PCA:
 
-   $$
-   Z = XW
-   $$
+   $Z = XW$
 
    Gdzie:
    - $Z$ to macierz nowych cech (głównych składowych),
@@ -54,7 +52,7 @@ Przekleństwo wymiarowości (ang. *curse of dimensionality*) odnosi się do prob
    plt.show()
    ```
 
-2. **Selekcja cech oparta na filtrach:**
+3. **Selekcja cech oparta na filtrach:**
 
    Filtry oceniają każdą cechę niezależnie i wybierają te, które są najbardziej istotne na podstawie miar takich jak korelacja, informacja wzajemna czy test chi-kwadrat. Filtry mogą być stosowane jako wstępna metoda redukcji wymiarowości przed zastosowaniem bardziej zaawansowanych technik.
 
@@ -96,15 +94,12 @@ Nadmierne dopasowanie (ang. *overfitting*) występuje, gdy model zbyt dobrze dop
 
    - **L2 (Ridge) regularization:** Dodaje karę za sumę kwadratów wag.
 
-     $$
-     \text{Funkcja straty} = \text{RSS} + \lambda \sum_{i=1}^{n} w_i^2
-     $$
+     
+     $\text{Funkcja straty} = \text{RSS} + \lambda \sum_{i=1}^{n} w_i^2$
 
    - **L1 (LASSO) regularization:** Dodaje karę za sumę wartości bezwzględnych wag, co może prowadzić do wyzerowania niektórych wag.
 
-     $$
-     \text{Funkcja straty} = \text{RSS} + \lambda \sum_{i=1}^{n} |w_i|
-     $$
+     $\text{Funkcja straty} = \text{RSS} + \lambda \sum_{i=1}^{n} |w_i|$
 
    Przykładowy kod w Pythonie:
 
