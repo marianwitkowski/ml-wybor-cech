@@ -15,10 +15,10 @@ $$
 $$
 
 Gdzie:
-- $ \hat{y} $ to przewidywana wartość,
-- $ w_0 $ to wyraz wolny (bias),
-- $ w_1, w_2, \dots, w_n $ to wagi cech,
-- $ x_1, x_2, \dots, x_n $ to cechy (zmienne niezależne).
+- $\hat{y}$ to przewidywana wartość,
+- $w_0$ to wyraz wolny (bias),
+- $w_1, w_2, \dots, w_n$ to wagi cech,
+- $x_1, x_2, \dots, x_n$ to cechy (zmienne niezależne).
 
 ##### Znaczenie wyboru cech w modelach liniowych
 
