@@ -28,13 +28,11 @@ Scikit-learn to jedna z najpopularniejszych bibliotek do uczenia maszynowego w P
 
    Wzór na test chi-kwadrat:
 
-   $$
-   \chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
-   $$
+   $\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$
 
    Gdzie:
-   - $ O_i $ to obserwowana liczba zdarzeń w kategorii $ i $,
-   - $ E_i $ to oczekiwana liczba zdarzeń w kategorii $ i $.
+   - $O_i$ to obserwowana liczba zdarzeń w kategorii $i$,
+   - $E_i$ to oczekiwana liczba zdarzeń w kategorii $i$.
 
 2. **Recursive Feature Elimination (RFE):**
 
@@ -58,14 +56,12 @@ Scikit-learn to jedna z najpopularniejszych bibliotek do uczenia maszynowego w P
 
    Wzór na funkcję kosztu w regresji logistycznej:
 
-   $$
-   J(\theta) = -\frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(h_\theta(x^{(i)})) + (1 - y^{(i)}) \log(1 - h_\theta(x^{(i)})) \right]
-   $$
+   $J(\theta) = -\frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(h_\theta(x^{(i)})) + (1 - y^{(i)}) \log(1 - h_\theta(x^{(i)})) \right]$
 
    Gdzie:
-   - $ m $ to liczba próbek,
-   - $ y^{(i)} $ to rzeczywista etykieta,
-   - $ h_\theta(x^{(i)}) $ to przewidywana etykieta.
+   - $m$ to liczba próbek,
+   - $y^{(i)}$ to rzeczywista etykieta,
+   - $h_\theta(x^{(i)})$ to przewidywana etykieta.
 
 3. **Feature Importance:**
 
@@ -103,8 +99,8 @@ Scikit-learn to jedna z najpopularniejszych bibliotek do uczenia maszynowego w P
    $$
 
    Gdzie:
-   - $ T $ to liczba drzew w modelu,
-   - $ I_t $ to wartość informacji zysku dla cechy w drzewie $ t $.
+   - $T$ to liczba drzew w modelu,
+   - $I_t$ to wartość informacji zysku dla cechy w drzewie $t$.
 
 ##### Przykład zastosowania
 
@@ -136,13 +132,11 @@ Feature-engine to biblioteka Python, która specjalizuje się w przetwarzaniu ce
 
    Wzór na współczynnik korelacji Pearsona:
 
-   $$
-   r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}
-   $$
+   $r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}$
 
    Gdzie:
-   - $ x_i $ i $ y_i $ to wartości cech,
-   - $ \bar{x} $ i $ \bar{y} $ to średnie wartości cech.
+   - $x_i$ i $y_i$ to wartości cech,
+   - $\bar{x}$ i $\bar{y}$ to średnie wartości cech.
 
 2. **SmartCorrelatedSelection:**
 
@@ -213,14 +207,12 @@ print("Wybrane cechy przez Boruta:\n", selected_features)
 
 Wzór na funkcję kosztu lasów losowych:
 
-$$
-\text{Impurity} = \sum_{t=1}^{T} \frac{n_t}{N} I_t
-$$
+$\text{Impurity} = \sum_{t=1}^{T} \frac{n_t}{N} I_t$
 
 Gdzie:
-- $ T $ to liczba drzew w modelu,
-- $ n_t $ to liczba próbek w węźle $ t $,
-- $ I_t $ to nieczystość węzła.
+- $T$ to liczba drzew w modelu,
+- $n_t$ to liczba próbek w węźle $t$,
+- $I_t$ to nieczystość węzła.
 
 ##### Przykład zastosowania
 
