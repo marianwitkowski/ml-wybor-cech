@@ -15,8 +15,8 @@ I(X; Y) = \sum_{x \in X} \sum_{y \in Y} p(x, y) \log \left( \frac{p(x, y)}{p(x) 
 $$
 
 Gdzie:
-- $ p(x, y) $ jest wspólnym rozkładem prawdopodobieństwa $ X $ i $ Y $,
-- $ p(x) $ i $ p(y) $ są marginalnymi rozkładami prawdopodobieństwa dla $ X $ i $ Y $.
+- $p(x, y)$ jest wspólnym rozkładem prawdopodobieństwa $ X $ i $ Y $,
+- $p(x)$ i $ p(y) $ są marginalnymi rozkładami prawdopodobieństwa dla $ X $ i $ Y $.
 
 Informacja wzajemna jest dodatnia i osiąga wartość 0 tylko wtedy, gdy zmienne są niezależne, co oznacza, że nie mają żadnego wspólnego wpływu na siebie nawzajem.
 
