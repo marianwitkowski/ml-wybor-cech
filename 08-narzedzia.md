@@ -94,9 +94,7 @@ Scikit-learn to jedna z najpopularniejszych bibliotek do uczenia maszynowego w P
 
    Wzór na obliczanie ważności cech:
 
-   $$
-   \text{Ważność cechy} = \frac{1}{T} \sum_{t=1}^{T} I_t
-   $$
+   $\text{Ważność cechy} = \frac{1}{T} \sum_{t=1}^{T} I_t$
 
    Gdzie:
    - $T$ to liczba drzew w modelu,
