@@ -32,9 +32,9 @@ Przekleństwo wymiarowości (ang. *curse of dimensionality*) odnosi się do prob
    $$
 
    Gdzie:
-   - $ Z $ to macierz nowych cech (głównych składowych),
-   - $ X $ to oryginalna macierz cech,
-   - $ W $ to macierz wektorów własnych odpowiadających największym wartościom własnym.
+   - $Z$ to macierz nowych cech (głównych składowych),
+   - $X$ to oryginalna macierz cech,
+   - $W$ to macierz wektorów własnych odpowiadających największym wartościom własnym.
 
    Przykładowy kod w Pythonie:
 
