@@ -15,8 +15,8 @@ I(X; Y) = \sum_{x \in X} \sum_{y \in Y} p(x, y) \log \left( \frac{p(x, y)}{p(x) 
 $$
 
 Gdzie:
-- $p(x, y)$ jest wspólnym rozkładem prawdopodobieństwa $ X $ i $ Y $,
-- $p(x)$ i $ p(y) $ są marginalnymi rozkładami prawdopodobieństwa dla $ X $ i $ Y $.
+- $p(x, y)$ jest wspólnym rozkładem prawdopodobieństwa $X$ i $Y$,
+- $p(x)$ i $ p(y)$ są marginalnymi rozkładami prawdopodobieństwa dla $X$ i $Y$.
 
 Informacja wzajemna jest dodatnia i osiąga wartość 0 tylko wtedy, gdy zmienne są niezależne, co oznacza, że nie mają żadnego wspólnego wpływu na siebie nawzajem.
 
@@ -62,7 +62,7 @@ print(f"Informacja wzajemna (brak związku): {mi2}")
 ```
 
 **Wynik:**
-- Informacja wzajemna jest znacznie wyższa w przypadku pierwszego przykładu, co potwierdza, że istnieje wyraźny związek między $ X $ a $ Y $.
+- Informacja wzajemna jest znacznie wyższa w przypadku pierwszego przykładu, co potwierdza, że istnieje wyraźny związek między $X$ a $Y$.
 - W drugim przykładzie, gdzie brak jest związku, informacja wzajemna jest bliska zeru.
 
 ##### Przykładowe zastosowanie w selekcji cech
@@ -94,11 +94,11 @@ $$
 $$
 
 Gdzie:
-- $ \hat{y} $ to przewidywana wartość,
-- $ w_0 $ to wyraz wolny (bias),
-- $ w_1, w_2, \dots, w_n $ to wagi (współczynniki) cech $ x_1, x_2, \dots, x_n $.
+- $\hat{y}$ to przewidywana wartość,
+- $w_0$ to wyraz wolny (bias),
+- $w_1, w_2, \dots, w_n$ to wagi (współczynniki) cech $x_1, x_2, \dots, x_n$.
 
-Każda waga $ w_i $ odzwierciedla zmianę w $ \hat{y} $ przy jednostkowej zmianie $ x_i $, zakładając, że wszystkie pozostałe cechy pozostają stałe.
+Każda waga $w_i$ odzwierciedla zmianę w $\hat{y}$ przy jednostkowej zmianie $x_i$, zakładając, że wszystkie pozostałe cechy pozostają stałe.
 
 ##### Interpretacja wag
 
@@ -205,7 +205,7 @@ G = \sum_{i=1}^{k} p_i (1 - p_i)
 $$
 
 Gdzie:
-- $ p_i $ to udział klasy $ i $ w węźle.
+- $p_i$ to udział klasy $i$ w węźle.
 
 2. **Redukcja nieczystości** - Znaczenie cechy w drzewach decyzyjnych mierzy się poprzez średnią redukcję nieczystości, którą wprowadza dana cecha w całym drzewie.
 
