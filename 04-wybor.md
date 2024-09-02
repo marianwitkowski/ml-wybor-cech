@@ -109,8 +109,8 @@ x' = \frac{x - \mu}{\sigma}
 $$
 
 Gdzie:
-- $ \mu $ to średnia wartość cechy,
-- $ \sigma $ to odchylenie standardowe cechy.
+- $\mu$ to średnia wartość cechy,
+- $\sigma$ to odchylenie standardowe cechy.
 
 Przykładowy kod:
 
@@ -141,7 +141,7 @@ r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x
 $$
 
 Gdzie:
-- $ \bar{x} $ i $ \bar{y} $ to średnie wartości zmiennych $ x $ i $ y $.
+- $\bar{x}$ i $\bar{y}$ to średnie wartości zmiennych $x$ i $y$.
 
 Przykładowy kod:
 
