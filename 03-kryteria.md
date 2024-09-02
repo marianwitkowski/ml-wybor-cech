@@ -8,7 +8,7 @@ Informacja wzajemna (ang. *mutual information*) jest miarą ilości informacji, 
 
 ##### Definicja i wzór
 
-Formalnie, informacja wzajemna $ I(X; Y) $ między dwiema zmiennymi $ X $ i $ Y $ jest definiowana jako:
+Formalnie, informacja wzajemna $I(X; Y)$ między dwiema zmiennymi $X$ i $Y$ jest definiowana jako:
 
 $$
 I(X; Y) = \sum_{x \in X} \sum_{y \in Y} p(x, y) \log \left( \frac{p(x, y)}{p(x) p(y)} \right)
