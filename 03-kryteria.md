@@ -16,7 +16,7 @@ $$
 
 Gdzie:
 - $p(x, y)$ jest wspólnym rozkładem prawdopodobieństwa $X$ i $Y$,
-- $p(x)$ i $ p(y)$ są marginalnymi rozkładami prawdopodobieństwa dla $X$ i $Y$.
+- $p(x)$ i $p(y)$ są marginalnymi rozkładami prawdopodobieństwa dla $X$ i $Y$.
 
 Informacja wzajemna jest dodatnia i osiąga wartość 0 tylko wtedy, gdy zmienne są niezależne, co oznacza, że nie mają żadnego wspólnego wpływu na siebie nawzajem.
 
