@@ -150,14 +150,12 @@ W miarę jak modele uczenia maszynowego stają się coraz bardziej złożone, ro
 
    Wzór na wartość Shapleya dla cechy $ i $:
 
-   $$
-   \phi_i = \sum_{S \subseteq N \setminus \{i\}} \frac{|S|! (|N| - |S| - 1)!}{|N|!} [v(S \cup \{i\}) - v(S)]
-   $$
+   $\phi_i = \sum_{S \subseteq N \setminus \{i\}} \frac{|S|! (|N| - |S| - 1)!}{|N|!} [v(S \cup \{i\}) - v(S)]$
 
    Gdzie:
-   - $ N $ to zbiór wszystkich cech,
-   - $ S $ to podzbiór cech bez cechy $ i $,
-   - $ v(S) $ to wartość funkcji oceny dla podzbioru cech $ S $.
+   - $N$ to zbiór wszystkich cech,
+   - $S$ to podzbiór cech bez cechy $i$,
+   - $v(S)$ to wartość funkcji oceny dla podzbioru cech $S$.
 
 2. **LIME (Local Interpretable Model-agnostic Explanations):**
 
