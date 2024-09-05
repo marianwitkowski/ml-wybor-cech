@@ -61,6 +61,9 @@ print(f"Informacja wzajemna (związek liniowy): {mi1}")
 print(f"Informacja wzajemna (brak związku): {mi2}")
 ```
 
+![image](https://github.com/user-attachments/assets/9f2a959c-d5f6-46c1-a463-385d8e415557)
+
+
 **Wynik:**
 - Informacja wzajemna jest znacznie wyższa w przypadku pierwszego przykładu, co potwierdza, że istnieje wyraźny związek między $X$ a $Y$.
 - W drugim przykładzie, gdzie brak jest związku, informacja wzajemna jest bliska zeru.
@@ -133,6 +136,8 @@ plt.ylabel('Wartość wagi')
 plt.title('Wagi cech w regresji liniowej')
 plt.show()
 ```
+
+![image](https://github.com/user-attachments/assets/2efd6185-05a3-4459-98dc-0374a685a03e)
 
 **Wynik:**
 - Wagi pokazują, które cechy mają największy wpływ na zmienną docelową.
@@ -237,6 +242,8 @@ plt.title('Znaczenie cech w lasach losowych')
 plt.show()
 ```
 
+![image](https://github.com/user-attachments/assets/fec20dd1-b756-4294-b958-98aeaee879d1)
+
 **Wynik:**
 - Wynikowe znaczenia cech pokazują, które cechy były najczęściej używane do podziałów w drzewach, co pozwala zidentyfikować kluczowe cechy.
 
@@ -263,6 +270,9 @@ plt.ylabel('Znaczenie cechy')
 plt.title('Znaczenie cech w gradient boosting')
 plt.show()
 ```
+
+![image](https://github.com/user-attachments/assets/013dd7f9-e016-4ee7-a90b-875951adb5bd)
+
 
 ##### Sieci neuronowe
 
