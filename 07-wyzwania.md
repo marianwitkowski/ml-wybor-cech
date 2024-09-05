@@ -88,9 +88,9 @@ Nadmierne dopasowanie (ang. *overfitting*) występuje, gdy model zbyt dobrze dop
 
 ##### Metody radzenia sobie z nadmiernym dopasowaniem
 
-1. **Regularizacja:**
+1. **Regularyzacja:**
 
-   Regularizacja dodaje karę do funkcji straty za zbyt duże wartości wag cech, co pomaga w uproszczeniu modelu i zmniejszeniu nadmiernego dopasowania.
+   Regularyzacja dodaje karę do funkcji straty za zbyt duże wartości wag cech, co pomaga w uproszczeniu modelu i zmniejszeniu nadmiernego dopasowania.
 
    - **L2 (Ridge) regularization:** Dodaje karę za sumę kwadratów wag.
 
@@ -134,7 +134,7 @@ Nadmierne dopasowanie (ang. *overfitting*) występuje, gdy model zbyt dobrze dop
 
 3. **Dropout (w sieciach neuronowych):**
 
-   Dropout to technika regularizacyjna stosowana w sieciach neuronowych, która losowo wyłącza pewien procent neuronów podczas treningu, co pomaga w zapobieganiu nadmiernemu dopasowaniu.
+   Dropout to technika regularyzacyjna stosowana w sieciach neuronowych, która losowo wyłącza pewien procent neuronów podczas treningu, co pomaga w zapobieganiu nadmiernemu dopasowaniu.
 
    Przykładowy kod w Pythonie:
 
@@ -160,7 +160,7 @@ Nadmierne dopasowanie (ang. *overfitting*) występuje, gdy model zbyt dobrze dop
 
 ##### Przykład zastosowania
 
-Rozważmy przykład klasyfikacji wniosków kredytowych na podstawie danych zawierających cechy takie jak wiek, dochód, liczba kart kredytowych, historia kredytowa itp. W takim przypadku, jeśli dodamy zbyt wiele nieistotnych cech (np. liczba dzieci czy stan cywilny), model może dopasować się do tych cech, zamiast skupić się na kluczowych informacjach. Regularizacja L1 lub L2 może pomóc w zmniejszeniu wagi mniej istotnych cech i poprawie zdolności modelu do generalizacji.
+Rozważmy przykład klasyfikacji wniosków kredytowych na podstawie danych zawierających cechy takie jak wiek, dochód, liczba kart kredytowych, historia kredytowa itp. W takim przypadku, jeśli dodamy zbyt wiele nieistotnych cech (np. liczba dzieci czy stan cywilny), model może dopasować się do tych cech, zamiast skupić się na kluczowych informacjach. Regularyzacja L1 lub L2 może pomóc w zmniejszeniu wagi mniej istotnych cech i poprawie zdolności modelu do generalizacji.
 
 #### Radzenie sobie z cechami redundantnymi i nieistotnymi
 
