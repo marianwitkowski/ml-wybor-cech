@@ -66,7 +66,7 @@ model, selected_features = backward_elimination(X, y)
 print("Wybrane cechy:", selected_features)
 ```
 
-2. **Regularizacja LASSO:**
+2. **Regularyzacja LASSO:**
 
 LASSO (Least Absolute Shrinkage and Selection Operator) to technika regularizacji, która może zmniejszyć współczynniki niektórych cech do zera, efektywnie eliminując je z modelu.
 
@@ -235,9 +235,9 @@ W sieciach neuronowych wybór cech może być nieco mniej krytyczny niż w przyp
 
 ##### Metody selekcji cech
 
-1. **Regularizacja L1 i L2:**
+1. **Regularyzacja L1 i L2:**
 
-Regularizacja L1 (LASSO) i L2 (Ridge) może być stosowana w sieciach neuronowych w celu penalizacji dużych wag, co pomaga w redukcji nadmiernego dopasowania oraz może skutkować wyeliminowaniem nieistotnych cech.
+Regularyzacja L1 (LASSO) i L2 (Ridge) może być stosowana w sieciach neuronowych w celu penalizacji dużych wag, co pomaga w redukcji nadmiernego dopasowania oraz może skutkować wyeliminowaniem nieistotnych cech.
 
 Przykładowy kod:
 
@@ -246,7 +246,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.regularizers import l1, l2
 
-# Tworzenie sieci neuronowej z regularizacją L1 i L2
+# Tworzenie sieci neuronowej z regularyzacją L1 i L2
 model = Sequential([
     Dense(64, activation='relu', input_shape=(X.shape[1],), kernel_regularizer=l1(0.001)),
     Dense(64, activation='relu', kernel_regularizer=l2(0.001)),
@@ -317,7 +317,7 @@ print("Znaczenie cech (permutacja):", importance_scores)
 
 ##### Przykład zastosowania
 
-Załóżmy, że mamy dane z obrazami, na których musimy rozpoznać obiekty. W takim przypadku sieć neuronowa może automatycznie nauczyć się odpowiednich cech (np. krawędzi, tekstur) z surowych danych obrazowych. Regularizacja L1/L2 oraz dropout pomogą uniknąć nadmiernego dopasowania, zwłaszcza gdy mamy ograniczoną ilość danych treningowych.
+Załóżmy, że mamy dane z obrazami, na których musimy rozpoznać obiekty. W takim przypadku sieć neuronowa może automatycznie nauczyć się odpowiednich cech (np. krawędzi, tekstur) z surowych danych obrazowych. Regularyzacja L1/L2 oraz dropout pomogą uniknąć nadmiernego dopasowania, zwłaszcza gdy mamy ograniczoną ilość danych treningowych.
 
 ---
 
