@@ -40,7 +40,7 @@ Dane zebrane z agencji nieruchomości, zawierające informacje o lokalizacji, po
 
 2. **Selekcja cech przy użyciu LASSO:**
 
-   Regularizacja LASSO została zastosowana w celu wyeliminowania nieistotnych cech. Model LASSO pozwala na zmniejszenie współczynników niektórych cech do zera, co efektywnie eliminuje je z modelu.
+   Regularyzacja LASSO została zastosowana w celu wyeliminowania nieistotnych cech. Model LASSO pozwala na zmniejszenie współczynników niektórych cech do zera, co efektywnie eliminuje je z modelu.
 
    ```python
    from sklearn.linear_model import Lasso
@@ -153,7 +153,7 @@ Zestaw danych obrazowych zawierający tysiące zdjęć psów i kotów.
 
 2. **Selekcja cech przez sieć konwolucyjną (CNN):**
 
-   CNN zostały zaprojektowane w taki sposób, aby same mogły uczyć się odpowiednich cech z obrazów. Można jednak zastosować techniki takie jak regularizacja L2 czy dropout, aby poprawić generalizację modelu.
+   CNN zostały zaprojektowane w taki sposób, aby same mogły uczyć się odpowiednich cech z obrazów. Można jednak zastosować techniki takie jak regularyzacja L2 czy dropout, aby poprawić generalizację modelu.
 
    ```python
    from tensorflow.keras.models import Sequential
@@ -185,7 +185,7 @@ Zestaw danych obrazowych zawierający tysiące zdjęć psów i kotów.
 - CNN nauczyła się rozpoznawać istotne cechy, takie jak kształty, tekstury, i wzory, które pozwalają na odróżnienie psów od kotów.
 
 **Wnioski:**
-- Wybór cech w sieciach neuronowych może być częściowo automatyczny, ale zastosowanie technik regularizacyjnych takich jak L2 czy dropout jest kluczowe, aby model nie nauczył się nieistotnych detali (overfitting).
+- Wybór cech w sieciach neuronowych może być częściowo automatyczny, ale zastosowanie technik regularyzacyjnych takich jak L2 czy dropout jest kluczowe, aby model nie nauczył się nieistotnych detali (overfitting).
 
 #### Porównanie efektywności modeli z różnymi zestawami cech
 
