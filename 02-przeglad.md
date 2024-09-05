@@ -175,9 +175,9 @@ feature_importances = model.feature_importances_
 print(feature_importances)
 ```
 
-##### Regularizacja (LASSO, Ridge)
+##### Regularyzacja (LASSO, Ridge)
 
-Regularizacja penalizuje wagi cech w modelach regresyjnych, co zapobiega nadmiernemu dopasowaniu. LASSO (L1) ma zdolność do zerowania wag nieistotnych cech, natomiast Ridge (L2) zmniejsza wszystkie wagi, ale nie zeruje ich.
+Regularyzacja penalizuje wagi cech w modelach regresyjnych, co zapobiega nadmiernemu dopasowaniu. LASSO (L1) ma zdolność do zerowania wag nieistotnych cech, natomiast Ridge (L2) zmniejsza wszystkie wagi, ale nie zeruje ich.
 
 1. **LASSO (L1 regularization)**
 
