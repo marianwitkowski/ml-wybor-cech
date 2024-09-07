@@ -261,7 +261,7 @@ plt.show()
 
 Metody osadzania integrują selekcję cech z procesem trenowania modelu.
 
-- **LASSO (Least Absolute Shrinkage and Selection Operator):** Regularizacja L1, która może zerować współczynniki wag cech, skutecznie eliminując nieistotne cechy.
+- **LASSO (Least Absolute Shrinkage and Selection Operator):** Regularyzacja L1, która może zerować współczynniki wag cech, skutecznie eliminując nieistotne cechy.
 
 Przykładowy kod:
 
