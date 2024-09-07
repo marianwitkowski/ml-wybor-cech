@@ -68,7 +68,7 @@ print("Wybrane cechy:", selected_features)
 
 2. **Regularyzacja LASSO:**
 
-LASSO (Least Absolute Shrinkage and Selection Operator) to technika regularizacji, która może zmniejszyć współczynniki niektórych cech do zera, efektywnie eliminując je z modelu.
+LASSO (Least Absolute Shrinkage and Selection Operator) to technika regularyzacji, która może zmniejszyć współczynniki niektórych cech do zera, efektywnie eliminując je z modelu.
 
 Przykładowy kod:
 
@@ -262,7 +262,7 @@ model.fit(X, y, epochs=10, batch_size=32, validation_split=0.2)
 
 2. **Dropout:**
 
-Dropout to technika regularizacyjna, która losowo "wyłącza" (czyli ignoruje) pewien procent neuronów w trakcie treningu, co zapobiega nadmiernemu dopasowaniu i zmusza sieć do nauki bardziej robustnych cech.
+Dropout to technika regularyzacyjna, która losowo "wyłącza" (czyli ignoruje) pewien procent neuronów w trakcie treningu, co zapobiega nadmiernemu dopasowaniu i zmusza sieć do nauki bardziej robustnych cech.
 
 Przykładowy kod:
 
