@@ -153,7 +153,7 @@ print(kendall_corr)
 
 #### Selekcja cech oparta na osadzaniu (embedded)
 
-Metody osadzania integrują selekcję cech bezpośrednio z procesem trenowania modelu, co pozwala na wybór cech, które są najbardziej istotne dla predykcji. Popularne techniki obejmują drzewa decyzyjne, lasy losowe oraz regularizację (LASSO i Ridge).
+Metody osadzania integrują selekcję cech bezpośrednio z procesem trenowania modelu, co pozwala na wybór cech, które są najbardziej istotne dla predykcji. Popularne techniki obejmują drzewa decyzyjne, lasy losowe oraz regularyzację (LASSO i Ridge).
 
 ##### Drzewa decyzyjne i lasy losowe
 
@@ -189,7 +189,7 @@ $$
 
 Gdzie:
 - RSS to suma kwadratów reszt,
-- $\lambda$ to parametr regularizacji,
+- $\lambda$ to parametr regularyzacji,
 - $w_i$ to wagi cech.
 
 Przykładowy kod w Pythonie:
