@@ -2,6 +2,9 @@
 
 ### Autor: Marian Witkowski
 
+
+Jest to rozszerzenie repozytorium <a href='https://github.com/marianwitkowski/tworzenie-modeli-ml' target='_blank'>Tworzenie modeli uczenia maszynowego</a>. W tym repozytorium znajdziecie wskazówki jak sposrób danych wybrać te, które spowodują, że Wasz model będzie miał lepszą jakość. Bo nie tylko ilość danych się liczy, ale także ich jakość.
+
 ---
 
 **Spis Treści**
