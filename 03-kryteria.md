@@ -143,9 +143,9 @@ plt.show()
 - Wagi pokazują, które cechy mają największy wpływ na zmienną docelową.
 - Wartości wag można łatwo zinterpretować, co czyni modele liniowe bardzo intuicyjnymi.
 
-##### Regularizacja w modelach liniowych
+##### Regularyzacja w modelach liniowych
 
-W modelach liniowych często stosuje się techniki regularizacji, takie jak Ridge (L2) i LASSO (L1), które wprowadzają kary za złożoność modelu. Regularizacja pomaga w radzeniu sobie z nadmiernym dopasowaniem (overfitting) oraz może prowadzić do eliminacji nieistotnych cech.
+W modelach liniowych często stosuje się techniki regularyzacji, takie jak Ridge (L2) i LASSO (L1), które wprowadzają kary za złożoność modelu. Regularyzacja pomaga w radzeniu sobie z nadmiernym dopasowaniem (overfitting) oraz może prowadzić do eliminacji nieistotnych cech.
 
 1. **Ridge (L2)**
 
@@ -193,7 +193,7 @@ print(f"Wagi cech (LASSO): {lasso_model.coef_}")
 
 ##### Zastosowanie w praktyce
 
-W praktyce wagi cech w modelach liniowych są często wykorzystywane do interpretacji wyników modelu oraz do selekcji najważniejszych cech. Regularizacja może być stosowana, aby uprościć model, co jest szczególnie przydatne w przypadku dużych zbiorów danych z wieloma cechami.
+W praktyce wagi cech w modelach liniowych są często wykorzystywane do interpretacji wyników modelu oraz do selekcji najważniejszych cech. Regularyzacja może być stosowana, aby uprościć model, co jest szczególnie przydatne w przypadku dużych zbiorów danych z wieloma cechami.
 
 #### Znaczenie cech w modelach nieliniowych
 
